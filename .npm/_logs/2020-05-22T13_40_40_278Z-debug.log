@@ -1,0 +1,21 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'init', '.' ]
+2 info using npm@6.14.4
+3 info using node@v12.16.3
+4 verbose stack Error: Unrecognized initializer: .
+4 verbose stack For more package binary executing power check out `npx`:
+4 verbose stack https://www.npmjs.com/package/npx
+4 verbose stack     at EventEmitter.init (/usr/local/lib/node_modules/npm/lib/init.js:42:19)
+4 verbose stack     at Object.commandCache.<computed> (/usr/local/lib/node_modules/npm/lib/npm.js:156:13)
+4 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/bin/npm-cli.js:131:30)
+4 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:79:11)
+5 verbose cwd /Users/adrianwong/Documents/nodejs_tutorial
+6 verbose Darwin 19.4.0
+7 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "init" "."
+8 verbose node v12.16.3
+9 verbose npm  v6.14.4
+10 error code EUNSUPPORTED
+11 error Unrecognized initializer: .
+11 error For more package binary executing power check out `npx`:
+11 error https://www.npmjs.com/package/npx
+12 verbose exit [ 1, true ]
